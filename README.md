@@ -86,6 +86,10 @@ Usage
                         
 Changelog
 ---------
+* 0.8 - 2020/02/02 - slackinfux
+  - added flags option to on_message handler (req'd by Paho update?)
+    added utf-8 decode option to msg.payload to prevent byte-to-str conversion error
+
 * 0.7 - 2016/06/05 - owagner
   - support --onkyo-id
 
